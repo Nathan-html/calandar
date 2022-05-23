@@ -21,7 +21,6 @@ public class Day {
 	private static Random random = new Random();
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private LocalDate date;
 	
 	@Min(value=20, message="Le nombre de points doit être supérieur ou égale à 20")
